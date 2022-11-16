@@ -1,18 +1,22 @@
-print("Hola, este es el archivo 01 de python.")
+print("Hola, este documento es sobre las variables")
 
-print("Hola soy Daniel y tego 28 años.")
+# Esto es una variable de texto.
+my_name = "Daniel"
 
-# Operaciones...
+print("Hola mi nombre es", my_name)
 
-print(12 + 5)
-print(10 - 5)
-print(2 * 3)
-print(8 / 2)
+# Esto es una variable numérica.
+my_age = 28
 
-# Esto es un comentario
+print("Mi edad es", my_age, "años")
 
-"""
-Varias
-Lineas
-No se pueden ver
-"""
+# Podemos sobreescribir variables
+my_name = "Jesus"
+
+print("Así es, mi otro nombre es ", my_name)
+
+# Escritura por teclado
+
+my_name = input("¿Cómo te llamas? ")
+my_age  = input("¿Cual es tu edad? ")
+print("Mis nombres completos son:", my_name,"y mi edad es", my_age, "años")
