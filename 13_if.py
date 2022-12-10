@@ -1,23 +1,34 @@
 if True:
-    print("Debería ejecutarse")
+  print('deberÃ­a ejecutarse')
 
 if False:
-    print("No debería ejecutarse")
+  print('nunca se ejecuta')
+
+'''
+pet = input('Â¿CuÃ¡l es tu mascota favorita? ')
+
+if pet == 'perro':
+  print('genial tienes buen gusto')
+elif pet == 'gato':
+  print('espero tengas suerte')
+elif pet == 'pez':
+  print('eres lo maximo')
+else:
+  print('no tienes ninguna mascota interesante')
 
 
-stock = int(input("Digita el stock => "))
+stock = int(input('Digita el stock => '))
 
 if stock >= 100 and stock <= 1000:
-    print("El stock es correcto.")
+  print('el stock es correcto')
 else:
-    print("El stock es incorrecto.")
-    
+  print('el stock es incorrecto')
 
-pet = input("¿Cuál es tu mascota favorita?")
+'''
 
-if pet == "perro":
-    print("Tienes un buen gusto")
-elif pet == "gato":
-    print("tienes un gusto superior")
+number = int(input('Ingrese un numero => '))
+result = number % 2
+if (result == 0):
+	print('Es par')
 else:
-    print("No has elegido algo digno.")
+	print('Es impar')
