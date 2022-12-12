@@ -1,5 +1,6 @@
 user_option = input('Eliga la opción: Piedra, papel o tijera ->')
 computer_option = 'tijera'
+user_option  = user_option.lower()
 
 if user_option == computer_option:
     print('Empate!')
